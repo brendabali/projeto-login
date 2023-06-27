@@ -39,6 +39,8 @@ section#login {
     transform: translate(-50%, -50%);
     overflow: hidden; /* tudo que estiver fora da borda, ficará escondido e assim a borda se manterá arredondada*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.478);
+    transition: width 0.3s, height 0.3s; /* tempo de movimento */
+    transition-timing-function: ease; /*ao ser mudado o tamanho da tela, será suavizado o movimento*/
 }
 
 section#login > div#imagem {
