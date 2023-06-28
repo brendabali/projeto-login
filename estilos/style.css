@@ -71,6 +71,7 @@ form > div.campo {
     height: 40px;
     border-radius: 8px;
     margin: 5px 0px;
+    border: 2px solid #2e0d46;
 }
 
 div.campo > label {
@@ -80,21 +81,25 @@ div.campo > label {
 
 div.campo > i {
     color: white;
-    background-color: black;
     font-size: 2em;
     width: 40px;
-    padding: 5px;
+    padding: 7px;
 }
 
 div.campo > input {
     background-color: #74c9c6;
     font-size: 1em;
-    width: calc(100%-44%);
+    width: calc(100% - 44px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-10px);
+    transform: translateY(-8px);
+}
+
+div.campo > input:focus-within /*para quando clicar no campo para inserir email colocar a configuração que quiser*/ {
+    background-color: white;
+
 }
 
 form > input[type=submit] {

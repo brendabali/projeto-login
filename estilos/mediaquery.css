@@ -39,6 +39,11 @@ grandes telas: acima de 1200px
 
     }
 
+    section#login {
+        width: 80vw;
+        height: 280px;
+    }
+
 }
 
 @media  screen and (min-width:992px) {
@@ -68,14 +73,45 @@ grandes telas: acima de 1200px
     }
     
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
    
     }
 
-    div.campo {
+
+    form > div.campo {
+        background-color: #5f2c82;
+        width: 100%;
+        display: block;
+        height: 40px;
+        border-radius: 8px;
+        margin: 5px 0px;
+        border: 2px solid #2e0d46;
         font-size: 1em;
     }
     
+    div.campo > i {
+        color: white;
+        font-size: 2em;
+        width: 41px;
+        padding: 2px;
+    }
+    
+    div.campo > input {
+        background-color: #74c9c6;
+        font-size: 1em;
+        width: calc(100% - 46px);
+        height: 100%;
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+        transform: translateY(-9px);
 
+    }
 
+    section#login {
+        width: 80vw;
+        height: 350px;
+    }
+    
 }
